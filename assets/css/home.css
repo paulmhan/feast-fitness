@@ -1,6 +1,6 @@
 body {
     background-image: url("../images/orange-gradient-backdrop.png");
-    background-size: 100% 100%;
+    background-size: 100%;
     
 }
 #header {
@@ -14,20 +14,15 @@ body {
 #fork-spoon {
     height: 150px;
     width: 150px;
-    position: relative;
-    left: 70px;
+    display: block;
+    margin: 0 auto;   
 }
-#film {
-    height: 150px;
-    width: 150px;
-    position: relative;
-    left: 70px;
-}
+
 #heart-rate {
     height: 150px;
     width: 150px;
-    position: relative;
-    left: 70px;
+    display: block;
+    margin: 0 auto;
 }
 #fork-spoon:hover, #film:hover, #heart-rate:hover {
     height: 160px;
@@ -40,14 +35,21 @@ h2, h4,  h5, #fork-spoon, #film, #heart-rate {
 #get-started {
     width: 420px;
     text-align: center;
-    position: relative;
-    right: 60px;
     background-color: #44578c;
+    display: block;
+    margin: 0 auto;
 }
+
+.icon-text-container {
+    display: block;
+    margin: 0 auto;
+}
+
 .icon-descrip {
     font-size: 18px;
     text-align: center;
 }
+
 footer {
     text-align: center;
     font-family: 'Dancing Script', cursive;
