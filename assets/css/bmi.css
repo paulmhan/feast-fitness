@@ -90,6 +90,8 @@ body {
 }
 .content-body {
     padding: 20px 10px 10px 10px;
+    max-height: 700px;
+    overflow-y: auto;
 }
 #date-tracker {
     padding: 10px 0 0 0;
